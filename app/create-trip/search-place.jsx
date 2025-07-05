@@ -29,7 +29,7 @@ export default function SearchPlace() {
       }}
       
       query={{
-        key:'AIzaSyDn_ueefWPUSmSsBswBbmXZ9ciX_N9PyrI',
+        key:process.env.EXPO_GOOGLE_MAPS_API_KEY,
         language: 'en',
       }}
     />
