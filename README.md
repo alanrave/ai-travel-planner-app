@@ -1,50 +1,105 @@
-# Welcome to your Expo app 👋
+AI Travel Planner App 🧳
+A mobile-first travel planning application that leverages AI to generate personalized itineraries and recommendations. Built with React Native, Expo, and Firebase, it offers seamless cross-platform support (iOS & Android).
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Features
+Trip Planning: Input your destination, travel dates, and preferences to create custom itineraries.
 
-## Get started
+AI-Powered Suggestions: Get recommendations for destinations, activities, and accommodations.
 
-1. Install dependencies
+Interactive Map View: Explore trip routes and landmarks visually.
 
-   ```bash
-   npm install
-   ```
+Itinerary Management: View, update, and organize planned trips.
 
-2. Start the app
+User Auth: Sign up and sign in via Firebase.
 
-   ```bash
-   npx expo start
-   ```
+Cross‑Platform: Runs on both iOS and Android via Expo.
 
-In the output, you'll find options to open the app in a
+🛠 Technologies Used
+React Native & Expo – UI components and mobile workflow
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+TypeScript – Strong typing and maintainability
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Firebase – Authentication + Firestore backend
 
-## Get a fresh project
+OpenAI / Gemini / GPT – AI engine for content generation
 
-When you're ready, run:
+Google Maps / Places API – Location and mapping services
 
-```bash
-npm run reset-project
-```
+🚀 Getting Started
+Prerequisites
+Node.js & npm installed
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Expo CLI (npm install -g expo-cli)
 
-## Learn more
+Firebase project (authentication & Firestore enabled)
 
-To learn more about developing your project with Expo, look at the following resources:
+API keys (OpenAI or Gemini, Google Maps / Places)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Setup
+bash
+Copy
+Edit
+# Clone the repo
+git clone https://github.com/alanrave/ai-travel-planner-app.git
+cd ai-travel-planner-app
 
-## Join the community
+# Install dependencies
+npm install
+# or
+yarn install
 
-Join our community of developers creating universal apps.
+# Create a .env file with these variables:
+EXPO_PUBLIC_GOOGLE_MAPS_API_KEY=...
+FIREBASE_API_KEY=...
+FIREBASE_AUTH_DOMAIN=...
+FIREBASE_PROJECT_ID=...
+OPENAI_API_KEY=... # or GEMINI_API_KEY
+Running the App
+bash
+Copy
+Edit
+expo start
+Then open the Expo Go app on your device or use an emulator.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🗂 Project Structure
+bash
+Copy
+Edit
+.
+├── assets/            # Static images and icons
+├── components/        # Reusable UI components
+├── screens/           # Major app screens
+├── context/           # React Context providers
+├── constants/         # Shared constant values
+├── services/          # Firebase, AI, and API services
+├── App.tsx            # Entry point
+└── app.json           # Expo configuration
+🔐 Authentication
+Powered by Firebase Authentication (email/password, Google, etc.)
+
+Users must be signed in to create and manage travel plans
+
+📈 Data Management
+Firestore handles user profiles and saved itineraries
+
+Real-time syncing and offline support
+
+💡 AI Recommendations
+Generates suggestions based on user preferences and history
+
+Supports destination, activity, and accommodation suggestions using LLMs (OpenAI/Gemini)
+
+🛠 Contributing
+Contributions are welcome! 🎉
+
+Fork the repo
+
+Create a feature branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m 'Add your feature')
+
+Push to your fork (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+Ensure you follow existing code conventions and include relevant tests or documentation.
