@@ -22,17 +22,6 @@ Deployments & CI/CD
 
 Roadmap & Future Enhancements
 
-Contributing
-
-Community & Support
-
-License
-
-Live Demo & Screenshots
-🎥 Demo video (TBD)
-
-
-
 (Replace with actual screenshots or embed YouTube/GIF demo link once available.)
 
 Key Features
@@ -194,10 +183,6 @@ Fork this repository
 Create a branch: git checkout -b feature/YourFeature
 
 Add tests and relevant documentation
-
-Commit with descriptive messages
-
-Push your branch and open a Pull Request
 
 Please follow the existing code style, run npm test and confirm everything is passing.
 
