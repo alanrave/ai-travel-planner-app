@@ -1,13 +1,15 @@
-import { useNavigation, useRouter } from 'expo-router';
-import { useEffect, useState } from 'react';
+import { Link, useNavigation, useRouter } from 'expo-router';
+import { useContext, useEffect, useState } from 'react';
 import { FlatList, Text, TouchableOpacity, View } from 'react-native';
 import OptionCard from '../../components/CreateTrip/OptionCard';
 import { Colors } from '../../constants/Colors';
-import { SelectTravelesList } from '../../constants/Options';
+import { SelectTravelesList } from '../../constants/options';
+import { CreateTripContext } from './../../context/CreateTripContext';
 export default function Traveles() {
   const router=useRouter();
   const navigation=useNavigation();
   const [selectedTraveler,setSelectedTraveler]=useState();
+  const {tripData,setTripData}=useContext(CreateTripContext);
     useEffect(()=>{
       navigation.setOptions({
         headerShown:true,
@@ -15,6 +17,11 @@ export default function Traveles() {
         headerTitle:''
       })
     },[])
+    useEffect(()=>{
+        setTripData({...tripData,
+            travellerCount:selectedTraveler
+        })
+    },[selectedTraveler])
   return (
     <View style={{
           padding:25,
@@ -43,7 +50,7 @@ export default function Traveles() {
       data={SelectTravelesList}
       renderItem ={({item,index})=>(
         <TouchableOpacity 
-        onPress={()=>setSelectedTraveler(item.title)}
+        onPress={()=>setSelectedTraveler(item)}
         style={{
           marginVertical:10
         }}>
@@ -51,8 +58,26 @@ export default function Traveles() {
         </TouchableOpacity>
       )}
       />
-      
       </View>
+    
+      <TouchableOpacity style={{
+        padding:20,
+        backgroundColor:Colors.PRIMARY,
+        borderRadius:15,
+        marginTop:20
+      }}>
+      <Link href="/create-trip/select_tareekh" asChild>
+      <Text style={{
+        width:'100%',
+        textAlign:'center',
+        color:Colors.WHITE,
+        fontFamily:'outfit-medium',
+        fontSize:20
+      }}>
+        Continue
+      </Text>
+      </Link>
+      </TouchableOpacity>
     </View>
   )
 }
