@@ -90,7 +90,6 @@ export default function MyTrip() {
         bounces={true}
         scrollEventThrottle={16}
       >
-        {/* Header */}
         <View style={styles.header}>
           <Text style={styles.title}>My Trip</Text>
           <TouchableOpacity onPress={handleAddTrip} style={styles.addButton}>
@@ -104,14 +103,12 @@ export default function MyTrip() {
           </View>
         )}
         
-        {/* Content */}
         {userTrips?.length === 0 ? 
           <StartNewTripCard /> 
           : 
           <UserTripList userTrips={userTrips} />
         }
         
-        {/* Add some bottom padding to ensure scrolling works */}
         <View style={styles.bottomSpacer} />
       </ScrollView>
     </View>
@@ -149,6 +146,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   bottomSpacer: {
-    height: 50, // Extra space at bottom
+    height: 50,
   },
 });
