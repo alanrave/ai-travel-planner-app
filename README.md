@@ -187,10 +187,18 @@ Add tests and relevant documentation
 Please follow the existing code style, run npm test and confirm everything is passing.
 
 SCREENSHOTS OF THE APPLICATION ARE HERE :
-![screenshots_page-0001](https://github.com/user-attachments/assets/20954cd8-d90a-4e8e-b329-3e083a732a3b) ![screenshots_page-0002](https://github.com/user-attachments/assets/77eddbf5-3aac-4d65-a504-af29bf2dc1a3)
-![screenshots_page-0003](https://github.com/user-attachments/assets/9f357fc5-a9c0-41fa-bf9d-2be4431deab4) ![screenshots_page-0004](https://github.com/user-attachments/assets/cda5f2df-fb9e-4335-9cdd-9ef7d6336e73)
-![screenshots_page-0005](https://github.com/user-attachments/assets/c4f76dd5-9925-46af-9456-4b0a39744fb1) ![screenshots_page-0006](https://github.com/user-attachments/assets/5c7f50bd-e4ee-485d-9e15-1f0fbeeb2246)
-![screenshots_page-0007](https://github.com/user-attachments/assets/b6b94b3a-095c-4aa0-bdab-1b62b6fc47aa) ![screenshots_page-0008](https://github.com/user-attachments/assets/5caa583b-312f-4f59-837d-3b24490457f7)
-![screenshots_page-0009](https://github.com/user-attachments/assets/0321edc1-d7da-4d06-96db-bbb638678135) ![screenshots_page-0010](https://github.com/user-attachments/assets/3c321195-8892-4944-996f-f770907aa400)
-![screenshots_page-0011](https://github.com/user-attachments/assets/e48e30cd-83c7-413c-b177-5272906c502b) ![screenshots_page-0012](https://github.com/user-attachments/assets/f41b77c8-5525-4f5d-b448-e50f31fc2b2f)
-![screenshots_page-0013](https://github.com/user-attachments/assets/4dab1e8b-7c98-4f27-9447-9c83244e6e45)
+
+<img src="https://github.com/user-attachments/assets/20954cd8-d90a-4e8e-b329-3e083a732a3b" width="250"> 
+<img src="https://github.com/user-attachments/assets/77eddbf5-3aac-4d65-a504-af29bf2dc1a3" width="250">
+<img src="https://github.com/user-attachments/assets/9f357fc5-a9c0-41fa-bf9d-2be4431deab4" width="250"> 
+<img src="https://github.com/user-attachments/assets/cda5f2df-fb9e-4335-9cdd-9ef7d6336e73" width="250">
+<img src="https://github.com/user-attachments/assets/c4f76dd5-9925-46af-9456-4b0a39744fb1" width="250"> 
+<img src="https://github.com/user-attachments/assets/5c7f50bd-e4ee-485d-9e15-1f0fbeeb2246" width="250">
+<img src="https://github.com/user-attachments/assets/b6b94b3a-095c-4aa0-bdab-1b62b6fc47aa" width="250"> 
+<img src="https://github.com/user-attachments/assets/5caa583b-312f-4f59-837d-3b24490457f7" width="250">
+<img src="https://github.com/user-attachments/assets/0321edc1-d7da-4d06-96db-bbb638678135" width="250"> 
+<img src="https://github.com/user-attachments/assets/3c321195-8892-4944-996f-f770907aa400" width="250">
+<img src="https://github.com/user-attachments/assets/e48e30cd-83c7-413c-b177-5272906c502b" width="250"> 
+<img src="https://github.com/user-attachments/assets/f41b77c8-5525-4f5d-b448-e50f31fc2b2f" width="250">
+<img src="https://github.com/user-attachments/assets/4dab1e8b-7c98-4f27-9447-9c83244e6e45" width="250">
+
