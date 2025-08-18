@@ -186,3 +186,8 @@ Add tests and relevant documentation
 
 Please follow the existing code style, run npm test and confirm everything is passing.
 
+
+![WhatsApp Image 2025-08-19 at 01 30 45_9704c845](https://github.com/user-attachments/assets/a14066b0-6627-4311-815c-9225dc596294)
+![screenshots_page-0009](https://github.com/user-attachments/assets/7303cd56-a886-44df-8e47-ee26d115aca4)
+
+
